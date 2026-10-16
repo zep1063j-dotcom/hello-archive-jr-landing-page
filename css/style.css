@@ -288,7 +288,8 @@ textarea:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 4p
 
 /* ---------- PROJECTS ---------- */
 .proj { margin-top: 44px; }
-.proj-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.proj-tabs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+@media (min-width: 720px) { .proj-tabs { grid-template-columns: repeat(4, 1fr); } }
 @media (min-width: 640px) { .proj-tabs { gap: 14px; } }
 .proj-tab {
   display: grid; gap: 2px; justify-items: start; text-align: left; min-height: 78px;

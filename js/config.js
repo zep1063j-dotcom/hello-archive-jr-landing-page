@@ -9,7 +9,7 @@ window.HELLO_ARCHIVE_JR_CONFIG = {
   // 1) 사전 신청 Google Forms 주소 (모든 CTA 버튼이 이 주소로 연결됩니다)
   //    예) "https://docs.google.com/forms/d/e/<폼ID>/viewform"
   //    비워 두면 버튼을 눌렀을 때 "사전 신청 준비 중" 안내가 표시됩니다.
-  GOOGLE_FORM_URL: "",
+  GOOGLE_FORM_URL: "https://docs.google.com/forms/d/e/1FAIpQLSdFoZXCpGFfh7-toO-gOELUqlr61Me9MmSxEbVstVsizS0KOA/viewform",
 
   // 2) (선택) 유입 채널을 폼 응답에 함께 남기고 싶을 때
   //    Google Forms "미리 채워진 링크 가져오기"로 확인한 단답형 항목의 ID. 예) "entry.1234567890"
@@ -25,6 +25,6 @@ window.HELLO_ARCHIVE_JR_CONFIG = {
 
   // 5) (선택) 푸터에 표시할 운영자 정보. 비워 두면 표시하지 않습니다.
   OPERATOR_NAME: "",
-  CONTACT_EMAIL: "",
+  CONTACT_EMAIL: "helloblank88@gmail.com",
   PRIVACY_POLICY_URL: ""
 };

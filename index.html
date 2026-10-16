@@ -73,8 +73,8 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow reveal">부모를 위한 성장 기록 서비스 · 출시 준비 중</p>
-          <h1 id="hero-title" class="display reveal">매주 하나의 질문,<br>아이의 인생이<br>한 권의 책으로.</h1>
+          <p class="eyebrow reveal">아이를 위한 성장 기록 서비스 · 출시 준비 중</p>
+          <h1 id="hero-title" class="display reveal">하나의 질문,<br>아이의 인생이<br>기록으로.</h1>
           <p class="lead reveal">아이의 생각과 꿈을 글로 남겨보세요. 한 달의 작은 챕터가 모여 세상에 하나뿐인 성장 자서전이 됩니다.</p>
           <div class="hero-actions reveal">
             <a class="btn btn-primary btn-lg" href="#cta" data-cta="hero">출시 알림 신청하기 <span class="arrow" aria-hidden="true">→</span></a>
@@ -281,11 +281,11 @@
     <section class="section section--cream projects" id="projects" aria-labelledby="projects-title">
       <div class="container">
         <p class="eyebrow reveal">Growth projects</p>
-        <h2 id="projects-title" class="h2 reveal">같은 기록이,<br>세 가지 결과물이 됩니다.</h2>
+        <h2 id="projects-title" class="h2 reveal">같은 기록이,<br>네 가지 결과물이 됩니다.</h2>
         <p class="section-lead reveal">따로 쓸 필요는 없어요. 하나의 타임라인에 쌓인 기록을 한 달, 세 달, 일 년 단위로 다시 엮어 서로 다른 이야기로 만들어 드려요.</p>
 
         <div class="proj" data-tabs data-tabs-id="projects">
-          <div class="proj-tabs tabs-ui" role="tablist" aria-label="성장 프로젝트 기간 선택">
+          <div class="proj-tabs tabs-ui" role="tablist" aria-label="성장 프로젝트 선택">
             <button type="button" role="tab" id="tab-m1" class="proj-tab" aria-selected="true" aria-controls="panel-m1" data-key="1m" data-span="1" data-caption="기록 1개월 → 약 4~5개의 기록이 작은 챕터 하나로">
               <span class="pt-period">1개월</span><span class="pt-name">성장 미니 챕터</span>
             </button>
@@ -294,6 +294,9 @@
             </button>
             <button type="button" role="tab" id="tab-m12" class="proj-tab" aria-selected="false" tabindex="-1" aria-controls="panel-m12" data-key="1y" data-span="12" data-caption="기록 1년 → 열두 달의 기록이 한 해의 기록집으로">
               <span class="pt-period">1년</span><span class="pt-name">연간 성장 기록집</span>
+            </button>
+            <button type="button" role="tab" id="tab-bio" class="proj-tab" aria-selected="false" tabindex="-1" aria-controls="panel-bio" data-key="bio" data-span="12" data-caption="기록 1년 이상 → 쌓인 기록 전체가 아이의 이야기, 한 권의 자서전으로">
+              <span class="pt-period">자서전</span><span class="pt-name">성장 자서전</span>
             </button>
           </div>
 
@@ -398,6 +401,36 @@
               </div>
             </div>
           </div>
+
+          <!-- D. 자서전 -->
+          <div class="proj-panel" role="tabpanel" id="panel-bio" aria-labelledby="tab-bio" hidden>
+            <div class="proj-copy">
+              <span class="proj-badge">프로젝트 D · 자서전</span>
+              <h3>성장 자서전</h3>
+              <p class="proj-quote">아이의 기록이, 한 사람의 이야기가 됩니다.</p>
+              <p>쌓인 기록을 시간의 흐름에 따라 이어, 아이의 생각과 꿈이 어떻게 자랐는지 한 권의 자서전으로 만들어 드려요. 해마다 이어 가면 여러 해의 기록이 하나의 자서전이 됩니다.</p>
+              <dl class="facts">
+                <div><dt>필요한 기록</dt><dd>1년 이상 쌓인 기록</dd></div>
+                <div><dt>이런 점이 좋아요</dt><dd>짧은 기록들이 아이의 성장 이야기로 이어져요</dd></div>
+                <div><dt>형태</dt><dd>구성과 제공 방식은 준비 중이며, 실물 책은 상품 후보로 검토 중</dd></div>
+              </dl>
+            </div>
+            <div class="proj-visual" aria-hidden="true">
+              <div class="assemble">
+                <div class="pieces pieces--minis">
+                  <div class="mini"><small>연간 기록집</small><b>7살</b></div>
+                  <div class="mini"><small>연간 기록집</small><b>8살</b></div>
+                  <div class="mini"><small>연간 기록집</small><b>9살</b></div>
+                </div>
+                <span class="assemble-arrow">→</span>
+                <div class="result result--cover cover cover--ink">
+                  <span class="cover-year">Autobiography</span>
+                  <strong>하린의<br>이야기</strong>
+                  <span class="cover-brand">Hello Archive jr</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <ul class="proj-notes reveal">
@@ -406,7 +439,7 @@
         </ul>
 
         <div class="proj-cta reveal">
-          <p>세 가지 중 어떤 결과물이 가장 기대되시나요? 사전 신청 시 알려 주세요.</p>
+          <p>네 가지 중 어떤 결과물이 가장 기대되시나요? 사전 신청 시 알려 주세요.</p>
           <a class="btn btn-primary" href="#cta" data-cta="projects">출시 알림 신청하기 <span class="arrow" aria-hidden="true">→</span></a>
         </div>
       </div>
@@ -686,6 +719,10 @@
             <div class="acc-panel" id="faq-p7" role="region" aria-labelledby="faq-b7"><div><p>디지털 PDF를 기본 결과물 후보로, 실물 하드커버 책을 프리미엄 상품 후보로 검토하고 있어요. 제작 방식과 제공 여부는 아직 확정되지 않았습니다. 사전 신청 때 어떤 결과물이 기대되는지 알려 주시면 큰 도움이 됩니다.</p></div></div>
           </div>
           <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b12" aria-expanded="false" aria-controls="faq-p12"><span>자서전은 1년 기록집과 무엇이 다른가요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p12" role="region" aria-labelledby="faq-b12"><div><p>1년 기록집은 한 해의 기록을 월·분기 챕터로 엮은 책이고, 자서전은 1년 이상 쌓인 기록을 아이의 이야기로 이어 만드는 별도의 결과물로 기획하고 있어요. 둘 다 같은 원본 기록을 활용하므로 따로 기록할 필요가 없습니다. 구성과 제공 방식, 가격은 아직 확정되지 않았어요.</p></div></div>
+          </div>
+          <div class="acc-item">
             <h3><button type="button" class="acc-btn" id="faq-b8" aria-expanded="false" aria-controls="faq-p8"><span>사진과 음성도 추가할 수 있나요?</span><i aria-hidden="true"></i></button></h3>
             <div class="acc-panel" id="faq-p8" role="region" aria-labelledby="faq-b8"><div><p>사진은 기록에 선택적으로 곁들일 수 있도록 준비하고 있어요. 음성 녹음은 추후 확장 기능으로 검토 중입니다. 서비스의 중심은 글로 남기는 기록이에요.</p></div></div>
           </div>
@@ -699,7 +736,7 @@
           </div>
           <div class="acc-item">
             <h3><button type="button" class="acc-btn" id="faq-b11" aria-expanded="false" aria-controls="faq-p11"><span>기록의 보관과 개인정보는 어떻게 관리되나요?</span><i aria-hidden="true"></i></button></h3>
-            <div class="acc-panel" id="faq-p11" role="region" aria-labelledby="faq-b11"><div><p>지금은 서비스 출시 전이라 기록을 받지 않으며, 사전 신청 때 이메일(필수), 자녀 연령대(선택), 가장 기대하는 기능(선택)과 개인정보 수집·출시 알림 동의만 받습니다. 아이의 이름, 정확한 생년월일, 사진, 음성 파일은 수집하지 않아요. 수집 목적과 보유 기간, 운영자 정보는 신청 폼에서 안내합니다. 출시 후의 기록 보관 방식은 서비스 공개 전에 따로 자세히 알려 드릴게요.</p></div></div>
+            <div class="acc-panel" id="faq-p11" role="region" aria-labelledby="faq-b11"><div><p>지금은 서비스 출시 전이라 기록을 받지 않으며, 사전 신청 때 이메일(필수), 휴대전화번호(선택), 자녀 연령대(선택), 가장 기대하는 기능(선택), 알림 받을 곳(선택)과 개인정보 수집·출시 알림 동의만 받습니다. 아이의 이름, 정확한 생년월일, 사진, 음성 파일은 수집하지 않아요. 수집 목적과 보유 기간, 운영자 정보는 신청 폼에서 안내합니다. 출시 후의 기록 보관 방식은 서비스 공개 전에 따로 자세히 알려 드릴게요.</p></div></div>
           </div>
         </div>
       </div>
@@ -716,7 +753,7 @@
         </div>
         <p class="cta-status" data-cta-status role="status"></p>
         <ul class="final-info reveal">
-          <li>받는 정보 <b>이메일(필수) · 자녀 연령대(선택) · 가장 기대하는 기능(선택) · 개인정보 수집 및 출시 알림 동의(필수)</b></li>
+          <li>받는 정보 <b>이메일(필수) · 휴대전화번호(선택) · 자녀 연령대(선택) · 가장 기대하는 기능(선택) · 알림 받을 곳(선택) · 개인정보 수집 및 출시 알림 동의(필수)</b></li>
           <li>받지 않는 정보 <b>아이의 이름 · 정확한 생년월일 · 사진 · 음성 파일</b></li>
         </ul>
       </div>
