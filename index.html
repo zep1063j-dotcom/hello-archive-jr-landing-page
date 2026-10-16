@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Archive jr · 매주 하나의 질문, 아이의 인생이 한 권의 책으로</title>
+  <meta name="description" content="매주 하나의 질문에 한두 문장만 답하세요. 아이의 생각과 꿈이 한 달의 미니 챕터, 세 달의 이야기집, 일 년의 성장 기록집으로 쌓입니다. 출시 알림을 신청해 보세요.">
+  <meta name="theme-color" content="#F8F4F6">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="Hello Archive jr">
+  <meta property="og:title" content="Hello Archive jr · 매주 하나의 질문, 아이의 인생이 한 권의 책으로">
+  <meta property="og:description" content="한 달의 작은 챕터가 모여 세상에 하나뿐인 성장 자서전이 됩니다. 출시 알림을 신청해 보세요.">
+  <!-- 배포 후 og:image / og:url 은 실제 주소(절대 경로)로 바꿔 주세요. README 참고 -->
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hello Archive jr — 매주 하나의 질문, 아이의 인생이 한 권의 책으로">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hello Archive jr · 매주 하나의 질문, 아이의 인생이 한 권의 책으로">
+  <meta name="twitter:description" content="한 달의 작은 챕터가 모여 세상에 하나뿐인 성장 자서전이 됩니다.">
+  <meta name="twitter:image" content="assets/images/og-image.jpg">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <noscript><style>[role="tabpanel"][hidden]{display:block!important}.tabs-ui{display:none!important}</style></noscript>
+</head>
+<body>
+  <!-- 사진 자리 표시용 그래픽 (저작권 문제가 없는 자체 제작 SVG) -->
+  <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="ph" viewBox="0 0 120 90">
+        <rect width="120" height="90" fill="#E4D9E1"/>
+        <circle cx="86" cy="26" r="11" fill="#E3C58E"/>
+        <path d="M0 62 Q22 44 44 58 T88 54 T120 60 V90 H0Z" fill="#B9A3B3"/>
+        <path d="M0 74 Q30 58 60 72 T120 70 V90 H0Z" fill="#8B7296"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Hello Archive jr 처음으로">
+        <svg class="brand-mark" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false">
+          <path d="M16 10c-3-2.2-7-2.6-10-1.6v15.2c3-1 7-.6 10 1.6 3-2.2 7-2.6 10-1.6V8.4C23 7.4 19 7.8 16 10z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M16 10v15.2" stroke="currentColor" stroke-width="1.6"/>
+          <circle cx="16" cy="4.6" r="1.7" fill="currentColor"/>
+        </svg>
+        <span class="brand-name">Hello Archive <em>jr</em></span>
+      </a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href="#projects">성장 프로젝트</a>
+        <a href="#writing">기록 체험</a>
+        <a href="#book">기록집</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="#cta" data-cta="header">출시 알림 신청</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">부모를 위한 성장 기록 서비스 · 출시 준비 중</p>
+          <h1 id="hero-title" class="display reveal">매주 하나의 질문,<br>아이의 인생이<br>한 권의 책으로.</h1>
+          <p class="lead reveal">아이의 생각과 꿈을 글로 남겨보세요. 한 달의 작은 챕터가 모여 세상에 하나뿐인 성장 자서전이 됩니다.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary btn-lg" href="#cta" data-cta="hero">출시 알림 신청하기 <span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost btn-lg" href="#projects">성장 프로젝트 보기</a>
+          </div>
+          <ul class="hero-points reveal">
+            <li><b>질문</b> 매주 하나, 한두 문장이면 충분</li>
+            <li><b>기록</b> 글이 중심, 사진은 선택</li>
+            <li><b>책</b> 한 달 · 세 달 · 일 년마다 완성</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" role="img" aria-label="이번 주의 질문 카드와 성장 기록집 표지를 보여주는 예시 이미지">
+          <div class="hv-book" aria-hidden="true">
+            <span class="hv-book-year">October 2026</span>
+            <strong>일곱 살의<br>가을</strong>
+            <span class="hv-book-sub">성장 미니 챕터</span>
+            <span class="hv-book-brand">Hello Archive jr</span>
+          </div>
+          <div class="hv-card" aria-hidden="true">
+            <span class="hv-chip">이번 주의 질문 · 3/5</span>
+            <p class="hv-q">요즘 가장 행복한 순간은 언제야?</p>
+            <p class="hv-a">학교 끝나고 친구들이랑 자전거 타는 시간!</p>
+            <div class="hv-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          </div>
+          <span class="hv-note" aria-hidden="true">예시 화면</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. PROBLEM ============ -->
+    <section class="section section--cream problem" id="problem" aria-labelledby="problem-title">
+      <div class="container">
+        <p class="eyebrow reveal">기억의 빈자리</p>
+        <h2 id="problem-title" class="h2 reveal">사진은 수천 장인데,<br>아이의 생각은 얼마나 남아 있나요?</h2>
+        <p class="section-lead reveal">아이는 하루하루 조금씩 달라지고, 그때만 할 수 있는 말을 합니다. 사진은 그날의 얼굴을 남겨 주지만, 그 얼굴 뒤의 마음은 시간이 지나면 조금씩 흐려져요.</p>
+
+        <div class="memory-row">
+          <article class="memory-card reveal">
+            <span class="memory-age">5살</span>
+            <p class="memory-q">그해 가장 좋아했던 놀이는?</p>
+            <p class="memory-a">사진은 많은데, 그때 뭐라고 했더라…</p>
+          </article>
+          <article class="memory-card reveal">
+            <span class="memory-age">8살</span>
+            <p class="memory-q">그 무렵 아이가 꾸던 꿈은?</p>
+            <p class="memory-a">분명 뭔가 말해 줬는데…</p>
+          </article>
+          <article class="memory-card reveal">
+            <span class="memory-age">12살</span>
+            <p class="memory-q">그때 가장 마음에 걸렸던 고민은?</p>
+            <p class="memory-a">물어볼 걸 그랬나 봐요…</p>
+          </article>
+        </div>
+
+        <p class="problem-close reveal">괜찮아요. 매일 일기를 쓰지 않아도 됩니다.<br><strong>일주일에 질문 하나</strong>면 충분해요.</p>
+      </div>
+    </section>
+
+    <!-- ============ 3. HOW IT WORKS ============ -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <p class="eyebrow reveal">How it works</p>
+        <h2 id="how-title" class="h2 reveal">질문 하나가, 한 권의 책이 되기까지</h2>
+        <p class="section-lead reveal">단계를 눌러 기록이 어떻게 쌓이는지 살펴보세요.</p>
+
+        <div class="how-grid">
+          <ol class="steps" id="how-steps">
+            <li><button type="button" class="step is-active" data-step="1" aria-current="step">
+              <span class="step-no">1</span>
+              <span class="step-body"><b>매주 하나의 질문을 받아요</b><span>아이의 나이와 성장 단계에 맞는 질문이 도착합니다.</span></span>
+            </button></li>
+            <li><button type="button" class="step" data-step="2">
+              <span class="step-no">2</span>
+              <span class="step-body"><b>텍스트로 답변을 적어요</b><span>아이에게 묻고 한두 문장만 적어도 기록이 됩니다.</span></span>
+            </button></li>
+            <li><button type="button" class="step" data-step="3">
+              <span class="step-no">3</span>
+              <span class="step-body"><b>사진과 추억을 더해요 (선택)</b><span>남기고 싶은 사진이 있을 때만 곁들이면 됩니다.</span></span>
+            </button></li>
+            <li><button type="button" class="step" data-step="4">
+              <span class="step-no">4</span>
+              <span class="step-body"><b>기록이 이야기집이 돼요</b><span>쌓인 기록이 챕터가 되고, 챕터가 책이 됩니다.</span></span>
+            </button></li>
+          </ol>
+
+          <div class="stage" id="how-stage" aria-hidden="true">
+            <div class="stage-card">
+              <div class="stage-q" data-from="1">
+                <span class="tag">이번 주의 질문</span>
+                <p>요즘 가장 좋아하는 놀이는 뭐야?</p>
+              </div>
+              <div class="stage-a" data-from="2">
+                <p>“블록으로 우주선 만드는 거! 오늘은 달에도 갔다 왔어.”</p>
+                <span class="stage-date">10월 · 일곱 살</span>
+              </div>
+              <div class="stage-photo" data-from="3">
+                <svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice"><use href="#ph"/></svg>
+                <span>사진 (선택)</span>
+              </div>
+            </div>
+            <div class="stage-book" data-from="4">
+              <span class="stage-book-icon"></span>
+              <p><b>10월의 챕터</b>에 5번째 기록이 담겼어요.<br><small>기록이 모이면 하나의 이야기집으로 엮입니다.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. WRITING EXPERIENCE ============ -->
+    <section class="section section--cream writing" id="writing" aria-labelledby="writing-title">
+      <div class="container writing-grid">
+        <div class="writing-copy">
+          <p class="eyebrow reveal">Writing experience</p>
+          <h2 id="writing-title" class="h2 reveal">기록은 가볍게,<br>한두 문장이면 충분해요.</h2>
+          <p class="section-lead reveal">직접 한번 적어 보세요. 질문을 읽고, 아이의 이야기를 몇 줄 옮기는 것이 전부입니다.</p>
+          <ul class="check-list reveal">
+            <li><b>짧아도 기록이 됩니다.</b> 긴 일기를 쓸 필요가 없어요.</li>
+            <li><b>사진은 선택이에요.</b> 글이 중심이고, 사진은 기록을 풍성하게 해 줍니다.</li>
+            <li><b>건너뛰어도 괜찮아요.</b> 모든 질문에 답할 필요가 없고, 쉬었다가 언제든 다시 시작할 수 있어요.</li>
+          </ul>
+        </div>
+
+        <div class="app reveal" id="demo-app">
+          <div class="app-bar">
+            <span class="app-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="app-title">Hello Archive jr · 이번 주 기록</span>
+            <span class="demo-badge">체험용 데모</span>
+          </div>
+          <form class="app-body" id="demo-form" novalidate>
+            <div class="app-meta">
+              <span class="app-label">이번 주의 질문</span>
+              <time id="demo-date" class="app-date">오늘</time>
+            </div>
+            <p class="app-question" id="demo-question">요즘 가장 행복한 순간은 언제야?</p>
+            <button type="button" class="link-btn" id="demo-next-q">다른 질문 보기 ↻</button>
+
+            <label class="app-label" for="demo-text">기록 내용</label>
+            <textarea id="demo-text" name="demo-text" rows="4" maxlength="300">요즘 우리 아이는 학교가 끝난 뒤 친구들과 자전거를 타는 시간을 가장 좋아한다.</textarea>
+            <div class="app-row"><span class="counter" id="demo-count" aria-hidden="true">0/300</span></div>
+
+            <div class="app-photo">
+              <button type="button" class="btn btn-ghost btn-sm" id="demo-photo-btn" aria-pressed="false">＋ 사진 첨부 (선택)</button>
+              <div class="thumb" id="demo-photo" hidden>
+                <svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#ph"/></svg>
+                <span>예시 사진</span>
+              </div>
+            </div>
+
+            <div class="app-submit">
+              <button type="submit" class="btn btn-primary">기록 저장</button>
+              <button type="button" class="btn btn-ghost" id="demo-skip">이번 주는 건너뛰기</button>
+            </div>
+            <p class="app-status" id="demo-status" role="status" aria-live="polite"></p>
+
+            <div class="month-progress">
+              <span class="app-label">이번 달 기록</span>
+              <ol class="dots" id="demo-dots" aria-hidden="true"><li class="on"></li><li class="on"></li><li></li><li></li><li></li></ol>
+              <span class="mp-text" id="demo-progress">2 / 5</span>
+            </div>
+          </form>
+          <p class="app-foot">※ 체험용 데모입니다. 입력한 내용은 저장되거나 어디로도 전송되지 않아요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 연령별 이용 경험 ============ -->
+    <section class="section ages" id="ages" aria-labelledby="ages-title">
+      <div class="container">
+        <p class="eyebrow reveal">For every age</p>
+        <h2 id="ages-title" class="h2 reveal">아이의 나이에 맞춰,<br>질문도 함께 자라요.</h2>
+        <p class="section-lead reveal">어릴 때는 부모가 대신 적고, 자라면서 아이가 직접 참여합니다. 영유아에게 답을 요구하지 않아요.</p>
+        <ul class="age-grid">
+          <li class="age-card reveal">
+            <span class="age-range">0–3세</span>
+            <h3>부모가 관찰해서 적어요</h3>
+            <p>아이에게 묻지 않아요. 오늘 본 모습과 그때 느낀 마음을 부모가 기록합니다.</p>
+            <p class="age-example">“오늘 아이가 처음 보여 준 표정이나 행동은?”</p>
+          </li>
+          <li class="age-card reveal">
+            <span class="age-range">4–7세</span>
+            <h3>묻고, 대신 적어 줘요</h3>
+            <p>아이에게 질문하고, 들은 이야기를 부모가 그대로 옮겨 적습니다.</p>
+            <p class="age-example">“요즘 가장 좋아하는 놀이는 무엇이야?”</p>
+          </li>
+          <li class="age-card reveal">
+            <span class="age-range">8–12세</span>
+            <h3>직접, 또는 함께 써요</h3>
+            <p>아이가 스스로 답을 쓰거나, 부모와 이야기 나누며 함께 기록해요.</p>
+            <p class="age-example">“커서 어떤 사람이 되고 싶어?”</p>
+          </li>
+          <li class="age-card reveal">
+            <span class="age-range">그 이후</span>
+            <h3>이어가거나, 다시 읽어요</h3>
+            <p>기록을 계속 이어가거나, 지난 기록을 처음부터 천천히 다시 살펴볼 수 있어요.</p>
+            <p class="age-example">“미래의 나에게 전하고 싶은 말은?”</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 5. GROWTH PROJECTS ============ -->
+    <section class="section section--cream projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="eyebrow reveal">Growth projects</p>
+        <h2 id="projects-title" class="h2 reveal">같은 기록이,<br>세 가지 결과물이 됩니다.</h2>
+        <p class="section-lead reveal">따로 쓸 필요는 없어요. 하나의 타임라인에 쌓인 기록을 한 달, 세 달, 일 년 단위로 다시 엮어 서로 다른 이야기로 만들어 드려요.</p>
+
+        <div class="proj" data-tabs data-tabs-id="projects">
+          <div class="proj-tabs tabs-ui" role="tablist" aria-label="성장 프로젝트 기간 선택">
+            <button type="button" role="tab" id="tab-m1" class="proj-tab" aria-selected="true" aria-controls="panel-m1" data-key="1m" data-span="1" data-caption="기록 1개월 → 약 4~5개의 기록이 작은 챕터 하나로">
+              <span class="pt-period">1개월</span><span class="pt-name">성장 미니 챕터</span>
+            </button>
+            <button type="button" role="tab" id="tab-m3" class="proj-tab" aria-selected="false" tabindex="-1" aria-controls="panel-m3" data-key="3m" data-span="3" data-caption="기록 3개월 → 약 12~14주의 기록이 첫 번째 이야기집으로">
+              <span class="pt-period">3개월</span><span class="pt-name">성장 이야기집</span>
+            </button>
+            <button type="button" role="tab" id="tab-m12" class="proj-tab" aria-selected="false" tabindex="-1" aria-controls="panel-m12" data-key="1y" data-span="12" data-caption="기록 1년 → 열두 달의 기록이 한 해의 기록집으로">
+              <span class="pt-period">1년</span><span class="pt-name">연간 성장 기록집</span>
+            </button>
+          </div>
+
+          <div class="strip-wrap" aria-hidden="true">
+            <div class="strip" id="proj-strip">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <p class="strip-caption" id="proj-caption">기록 1개월 → 약 4~5개의 기록이 작은 챕터 하나로</p>
+          </div>
+
+          <!-- A. 1개월 -->
+          <div class="proj-panel" role="tabpanel" id="panel-m1" aria-labelledby="tab-m1">
+            <div class="proj-copy">
+              <span class="proj-badge">프로젝트 A · 1개월</span>
+              <h3>성장 미니 챕터</h3>
+              <p class="proj-quote">한 달의 작은 기록이 하나의 챕터가 됩니다.</p>
+              <p>매주 질문에 답하며 쌓은 4~5개의 기록을, 그 달의 질문·답변·사진으로 정리해 작은 디지털 챕터로 보여 드려요.</p>
+              <dl class="facts">
+                <div><dt>필요한 기록</dt><dd>약 4~5개 (매주 하나)</dd></div>
+                <div><dt>이런 점이 좋아요</dt><dd>부담 없이 시작하고, 첫 결과물을 빠르게 만나요</dd></div>
+                <div><dt>형태</dt><dd>카드형·페이지형으로 읽는 디지털 미리보기</dd></div>
+              </dl>
+            </div>
+            <div class="proj-visual" aria-hidden="true">
+              <div class="assemble">
+                <div class="pieces pieces--cards">
+                  <div class="piece"><b>1주</b><span>좋아하는 놀이</span></div>
+                  <div class="piece"><b>2주</b><span>가장 친한 친구</span></div>
+                  <div class="piece"><b>3주</b><span>행복했던 순간</span></div>
+                  <div class="piece"><b>4주</b><span>배우고 싶은 것</span></div>
+                  <div class="piece"><b>5주</b><span>오늘의 한마디</span></div>
+                </div>
+                <span class="assemble-arrow">→</span>
+                <div class="result result--page">
+                  <span class="rp-eyebrow">October 2026</span>
+                  <strong>일곱 살의 가을</strong>
+                  <ul><li>Q. 좋아하는 놀이</li><li>Q. 가장 친한 친구</li><li>Q. 행복했던 순간</li><li>Q. 배우고 싶은 것</li><li>Q. 오늘의 한마디</li></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- B. 3개월 -->
+          <div class="proj-panel" role="tabpanel" id="panel-m3" aria-labelledby="tab-m3" hidden>
+            <div class="proj-copy">
+              <span class="proj-badge">프로젝트 B · 3개월</span>
+              <h3>성장 이야기집</h3>
+              <p class="proj-quote">세 달의 이야기가 첫 번째 책이 됩니다.</p>
+              <p>약 12~14주 동안 쌓인 기록을 월별 챕터와 사진으로 엮어, 처음으로 ‘완성된 이야기집’을 만나는 경험을 목표로 해요.</p>
+              <dl class="facts">
+                <div><dt>필요한 기록</dt><dd>약 12~14주의 기록</dd></div>
+                <div><dt>이런 점이 좋아요</dt><dd>짧은 기록들이 하나의 이야기로 이어져요</dd></div>
+                <div><dt>형태</dt><dd>월별 챕터와 사진을 담은 디지털 PDF (제작 목표)</dd></div>
+              </dl>
+            </div>
+            <div class="proj-visual" aria-hidden="true">
+              <div class="assemble">
+                <div class="pieces pieces--minis">
+                  <div class="mini"><small>미니 챕터</small><b>3월</b></div>
+                  <div class="mini"><small>미니 챕터</small><b>4월</b></div>
+                  <div class="mini"><small>미니 챕터</small><b>5월</b></div>
+                </div>
+                <span class="assemble-arrow">→</span>
+                <div class="result result--cover cover cover--wine">
+                  <span class="cover-year">Spring 2026</span>
+                  <strong>일곱 살의 봄,<br>우리의 첫 번째 이야기</strong>
+                  <span class="cover-brand">Hello Archive jr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- C. 1년 -->
+          <div class="proj-panel" role="tabpanel" id="panel-m12" aria-labelledby="tab-m12" hidden>
+            <div class="proj-copy">
+              <span class="proj-badge">프로젝트 C · 1년</span>
+              <h3>연간 성장 기록집</h3>
+              <p class="proj-quote">열두 달의 기록이 아이의 한 해를 담습니다.</p>
+              <p>12개의 월간 챕터, 또는 4개의 분기별 이야기집을 한 권으로 이어요. 한 해를 돌아보는 페이지도 함께 담을 수 있어요.</p>
+              <ul class="chips" aria-label="함께 담길 수 있는 내용">
+                <li>가장 인상 깊었던 순간</li><li>관심사의 변화</li><li>기억에 남는 질문과 답변</li><li>특별한 사진</li><li>부모가 아이에게 남기는 편지</li>
+              </ul>
+              <dl class="facts">
+                <div><dt>필요한 기록</dt><dd>열두 달의 기록</dd></div>
+                <div><dt>형태</dt><dd>디지털 PDF가 기본 후보, 실물 하드커버는 프리미엄 후보</dd></div>
+              </dl>
+            </div>
+            <div class="proj-visual" aria-hidden="true">
+              <div class="assemble">
+                <div class="pieces pieces--quarters">
+                  <div class="quarter"><small>봄</small><span><i>3</i><i>4</i><i>5</i></span></div>
+                  <div class="quarter"><small>여름</small><span><i>6</i><i>7</i><i>8</i></span></div>
+                  <div class="quarter"><small>가을</small><span><i>9</i><i>10</i><i>11</i></span></div>
+                  <div class="quarter"><small>겨울</small><span><i>12</i><i>1</i><i>2</i></span></div>
+                </div>
+                <span class="assemble-arrow">→</span>
+                <div class="result result--cover cover cover--ink">
+                  <span class="cover-year">2026</span>
+                  <strong>여덟 살의<br>모든 계절</strong>
+                  <span class="cover-brand">Hello Archive jr</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="proj-notes reveal">
+          <li>질문에 몇 번 답하지 못해도 프로젝트는 이어져요. 기록량에 따라 결과물의 분량이 자연스럽게 달라집니다.</li>
+          <li>위 화면은 이해를 돕기 위한 <b>예시 시각화</b>입니다. 실제 결과물의 디자인·분량·제공 시점·이용 조건은 아직 확정되지 않았어요.</li>
+        </ul>
+
+        <div class="proj-cta reveal">
+          <p>세 가지 중 어떤 결과물이 가장 기대되시나요? 사전 신청 시 알려 주세요.</p>
+          <a class="btn btn-primary" href="#cta" data-cta="projects">출시 알림 신청하기 <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. GROWTH TIMELINE ============ -->
+    <section class="section timeline" id="timeline" aria-labelledby="timeline-title">
+      <div class="container">
+        <p class="eyebrow reveal">Growth timeline</p>
+        <h2 id="timeline-title" class="h2 reveal">같은 질문, 다른 나이.<br>생각이 자라는 모습을 읽어요.</h2>
+        <p class="section-lead reveal">모든 기록은 시간순으로 쌓이고, 연도·나이·주제별로 다시 찾아볼 수 있어요. 같은 질문에 대한 나이별 답변을 나란히 비교해 보세요.</p>
+
+        <div class="tl" data-tabs data-tabs-id="timeline">
+          <p class="tl-question reveal"><span>Q.</span> 커서 어떤 사람이 되고 싶어?</p>
+
+          <div class="age-tabs tabs-ui" role="tablist" aria-label="나이 선택">
+            <button type="button" role="tab" id="tab-a6" aria-selected="true" aria-controls="panel-a6" class="age-tab"><span class="dot"></span><span class="age-label">6살</span></button>
+            <button type="button" role="tab" id="tab-a10" aria-selected="false" tabindex="-1" aria-controls="panel-a10" class="age-tab"><span class="dot"></span><span class="age-label">10살</span></button>
+            <button type="button" role="tab" id="tab-a15" aria-selected="false" tabindex="-1" aria-controls="panel-a15" class="age-tab"><span class="dot"></span><span class="age-label">15살</span></button>
+          </div>
+
+          <div class="answer" role="tabpanel" id="panel-a6" aria-labelledby="tab-a6">
+            <span class="answer-age">6살의 답</span>
+            <blockquote>“나는 공룡 박사가 될 거야!”</blockquote>
+            <p class="answer-theme">그때의 관심사 <b>상상 · 공룡</b></p>
+          </div>
+          <div class="answer" role="tabpanel" id="panel-a10" aria-labelledby="tab-a10" hidden>
+            <span class="answer-age">10살의 답</span>
+            <blockquote>“게임을 만드는 사람이 되고 싶어.”</blockquote>
+            <p class="answer-theme">그때의 관심사 <b>만들기 · 게임</b></p>
+          </div>
+          <div class="answer" role="tabpanel" id="panel-a15" aria-labelledby="tab-a15" hidden>
+            <span class="answer-age">15살의 답</span>
+            <blockquote>“아직 모르겠지만, 내가 좋아하는 일을 하고 싶어.”</blockquote>
+            <p class="answer-theme">그때의 관심사 <b>나다움 · 가치관</b></p>
+          </div>
+        </div>
+        <p class="tl-note">※ 이해를 돕기 위해 만든 가상의 예시입니다. 실제 사용자의 기록이 아니에요.</p>
+      </div>
+    </section>
+
+    <!-- ============ 7. MEMORY BOOK SHOWCASE ============ -->
+    <section class="section section--cream book" id="book" aria-labelledby="book-title">
+      <div class="container">
+        <p class="eyebrow reveal">Memory book</p>
+        <h2 id="book-title" class="h2 reveal">화면에서 읽고,<br>언젠가 손으로 펼쳐 보는 책.</h2>
+        <p class="section-lead reveal">질문과 답변, 사진, 부모의 편지가 한 권의 책으로 엮입니다. 아래 예시를 직접 넘겨 보세요.</p>
+
+        <div data-tabs data-tabs-id="book" class="book-tabs-wrap">
+          <div class="seg tabs-ui" role="tablist" aria-label="결과물 형태 선택">
+            <button type="button" role="tab" id="tab-digital" aria-selected="true" aria-controls="panel-digital" class="seg-btn">디지털 이야기집</button>
+            <button type="button" role="tab" id="tab-hard" aria-selected="false" tabindex="-1" aria-controls="panel-hard" class="seg-btn">연간 기록집 (실물 후보)</button>
+          </div>
+
+          <!-- 디지털 -->
+          <div class="book-panel" role="tabpanel" id="panel-digital" aria-labelledby="tab-digital">
+            <div class="book-stage">
+              <div class="device" aria-hidden="true">
+                <div class="reader">
+                  <aside class="reader-side">
+                    <p class="rs-title">일곱 살의 봄</p>
+                    <ol>
+                      <li>3월 · 새 학기</li>
+                      <li class="on">4월 · 봄이 오는 소리</li>
+                      <li>5월 · 처음 해 본 것들</li>
+                    </ol>
+                  </aside>
+                  <article class="reader-page">
+                    <p class="rp-eyebrow">April</p>
+                    <h4>봄이 오는 소리</h4>
+                    <p class="q">Q. 요즘 가장 배우고 싶은 것은?</p>
+                    <p class="a">피아노로 좋아하는 만화 주제곡을 직접 치고 싶대요.</p>
+                    <div class="rp-photo"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice"><use href="#ph"/></svg></div>
+                    <p class="rp-cap">4월 둘째 주의 기록</p>
+                  </article>
+                </div>
+              </div>
+              <ul class="book-points">
+                <li><b>월별 챕터</b> 한 달씩 읽어 내려가는 구성</li>
+                <li><b>질문과 답변</b> 그때의 말투 그대로</li>
+                <li><b>사진과 함께</b> 남기고 싶은 장면만 선택</li>
+                <li><b>디지털 PDF</b> 제작을 목표로 준비 중</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 하드커버 -->
+          <div class="book-panel" role="tabpanel" id="panel-hard" aria-labelledby="tab-hard" hidden>
+            <div class="book-stage">
+              <div class="flipper" id="flipper">
+                <div class="flip-book" id="book-view">
+                  <div class="flip" id="flip" tabindex="0" aria-label="연간 성장 기록집 예시. 좌우 방향키로 페이지를 넘길 수 있어요.">
+                    <section class="leaf leaf--cover" aria-hidden="true">
+                      <div class="pg pg--cover">
+                        <span class="cover-year">2026</span>
+                        <strong>여덟 살의<br>모든 계절</strong>
+                        <span class="cover-line"></span>
+                        <span class="cover-sub">하린의 성장 기록집</span>
+                        <span class="cover-brand">Hello Archive jr</span>
+                      </div>
+                    </section>
+                    <section class="leaf" aria-hidden="true">
+                      <div class="pg">
+                        <p class="pg-eyebrow">Contents</p>
+                        <h4 class="pg-title">차례</h4>
+                        <ol class="toc">
+                          <li><span>봄 · 새 교실, 새 친구</span><i>08</i></li>
+                          <li><span>여름 · 바다와 수영</span><i>26</i></li>
+                          <li><span>가을 · 자전거를 배운 날</span><i>44</i></li>
+                          <li><span>겨울 · 눈사람과 소원</span><i>62</i></li>
+                          <li><span>올해의 하린</span><i>80</i></li>
+                          <li><span>엄마 아빠의 편지</span><i>88</i></li>
+                        </ol>
+                      </div>
+                    </section>
+                    <section class="leaf" aria-hidden="true">
+                      <div class="pg">
+                        <p class="pg-eyebrow">가을 · 10월 셋째 주</p>
+                        <p class="pg-q">Q. 요즘 가장 행복한 순간은 언제야?</p>
+                        <p class="pg-a">학교 끝나고 친구들이랑 자전거 타는 시간!</p>
+                        <p class="pg-memo">엄마의 메모 — 이 말을 하며 한참을 웃었다. 바람 소리까지 흉내 내며.</p>
+                      </div>
+                    </section>
+                    <section class="leaf" aria-hidden="true">
+                      <div class="pg">
+                        <p class="pg-eyebrow">가을 · 10월 둘째 주</p>
+                        <div class="pg-photo"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice"><use href="#ph"/></svg></div>
+                        <p class="pg-cap">보조 바퀴 없이 처음 혼자 탄 날.</p>
+                        <p class="pg-a pg-a--sm">“아빠, 손 놓은 거 알았어!”</p>
+                      </div>
+                    </section>
+                    <section class="leaf" aria-hidden="true">
+                      <div class="pg pg--letter">
+                        <p class="pg-eyebrow">Letter</p>
+                        <p class="letter-to">하린에게,</p>
+                        <p class="letter-body">올해 네가 들려준 이야기를 다시 읽다가, 그 작은 목소리가 이렇게 또렷이 남아 있다는 게 참 고마웠어. 먼 훗날 이 책을 펼칠 너에게도 오늘의 웃음이 닿기를.</p>
+                        <p class="letter-sign">엄마 · 아빠가</p>
+                      </div>
+                    </section>
+                    <section class="leaf" aria-hidden="true">
+                      <div class="pg">
+                        <p class="pg-eyebrow">Yearly chapter</p>
+                        <h4 class="pg-title">올해의 하린</h4>
+                        <p class="pg-label">관심사의 변화</p>
+                        <ul class="seasons">
+                          <li><b>봄</b>공룡 도감</li>
+                          <li><b>여름</b>수영</li>
+                          <li><b>가을</b>자전거</li>
+                          <li><b>겨울</b>그림 그리기</li>
+                        </ul>
+                        <p class="pg-label">가장 인상 깊었던 순간</p>
+                        <p class="pg-a pg-a--sm">혼자서 자전거를 탄 가을날</p>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+
+                <div class="flip-ui">
+                  <button type="button" class="round-btn" id="flip-prev" aria-label="이전 페이지">←</button>
+                  <p class="flip-caption" id="flip-caption" aria-live="polite"></p>
+                  <button type="button" class="round-btn" id="flip-next" aria-label="다음 페이지">→</button>
+                </div>
+                <div class="flip-dots" id="flip-dots" role="group" aria-label="페이지 바로가기"></div>
+              </div>
+
+              <ul class="book-points">
+                <li><b>표지와 차례</b> 한 해의 이야기를 한눈에</li>
+                <li><b>질문과 답변</b> 아이의 목소리를 그대로 담은 페이지</li>
+                <li><b>사진과 함께</b> 소중한 장면에 짧은 글을 더해요</li>
+                <li><b>부모의 편지</b> 훗날 아이에게 전하는 마음</li>
+                <li><b>연간 성장 챕터</b> 한 해의 변화를 돌아보는 페이지</li>
+              </ul>
+            </div>
+            <p class="book-note">※ 실물 기록집은 출시 전 검토 중인 상품 후보이며, 제작 사양과 가격은 확정되지 않았습니다.</p>
+          </div>
+        </div>
+        <p class="book-note book-note--common">※ 화면 속 책과 내용은 이해를 돕기 위한 예시이며 가상의 인물입니다.</p>
+      </div>
+    </section>
+
+    <!-- ============ 8. ADDITIONAL FEATURES ============ -->
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <p class="eyebrow reveal">And more</p>
+        <h2 id="features-title" class="h2 reveal">기록을 더 풍성하게 하는 것들</h2>
+        <p class="section-lead reveal">핵심은 글로 남기는 기록입니다. 아래 기능은 필요할 때 곁들이는 선택 사항이에요.</p>
+        <ul class="feature-grid">
+          <li class="feature reveal">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+            <h3>사진 기록</h3>
+            <p>기록에 어울리는 사진을 한 장 곁들여 그날의 장면을 함께 남겨요.</p>
+            <span class="feature-tag">선택 기능</span>
+          </li>
+          <li class="feature reveal">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5v14"/><circle cx="5" cy="7" r="1.6"/><circle cx="5" cy="17" r="1.6"/><path d="M10 7h9M10 17h9"/></svg>
+            <h3>성장 타임라인</h3>
+            <p>모든 기록을 시간순으로 모아, 연도·나이·주제별로 다시 찾아봐요.</p>
+            <span class="feature-tag">기본 기능</span>
+          </li>
+          <li class="feature reveal">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+            <h3>음성 녹음</h3>
+            <p>글로 옮기기 아쉬운 목소리를 간직할 수 있도록 검토하고 있어요.</p>
+            <span class="feature-tag">추후 확장 · 선택</span>
+          </li>
+          <li class="feature reveal">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3.5 7.5 12 13l8.5-5.5"/></svg>
+            <h3>특별한 날짜의 메시지</h3>
+            <p>생일이나 졸업처럼 특별한 날, 미래의 아이에게 전할 메시지를 남겨요.</p>
+            <span class="feature-tag">추후 확장</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 9. FUTURE GIFT ============ -->
+    <section class="section gift" id="gift" aria-labelledby="gift-title">
+      <div class="container gift-grid">
+        <div class="gift-copy">
+          <p class="eyebrow eyebrow--light reveal">A gift for the future</p>
+          <h2 id="gift-title" class="h2 reveal">언젠가 아이가 펼쳐볼,<br>자신의 첫 번째 이야기.</h2>
+          <p class="gift-scene reveal">스무 살이 된 어느 날, 아이는 서랍 깊은 곳에서 책 한 권을 꺼내 펼칩니다. 그곳엔 여섯 살의 공룡 박사가, 열 살의 게임 만드는 사람이, 그리고 늘 곁에 있던 엄마 아빠의 편지가 있어요.</p>
+          <p class="gift-text reveal">해마다 작은 기록집을 한 권씩 완성하고, 아이가 자란 뒤에는 여러 해의 기록을 모아 하나의 자서전으로 선물할 수 있어요. 오늘의 한 줄이 먼 훗날 가장 따뜻한 선물이 됩니다.</p>
+        </div>
+        <div class="shelf reveal" role="img" aria-label="해마다 한 권씩 쌓인 작은 기록집이 하나의 자서전으로 이어지는 모습을 그린 상상 이미지">
+          <div class="shelf-books" aria-hidden="true">
+            <span class="spine s1"><b>7살</b></span>
+            <span class="spine s2"><b>8살</b></span>
+            <span class="spine s3"><b>9살</b></span>
+            <span class="spine s4"><b>10살</b></span>
+            <span class="spine s5"><b>11살</b></span>
+            <span class="spine s6"><b>12살</b></span>
+            <span class="shelf-arrow">→</span>
+            <span class="spine spine--grand"><b>하린의 이야기</b><small>자서전</small></span>
+          </div>
+          <div class="shelf-board" aria-hidden="true"></div>
+          <p class="shelf-note" aria-hidden="true">상상 속 예시 이미지</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10. FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <div class="faq-head">
+          <p class="eyebrow reveal">FAQ</p>
+          <h2 id="faq-title" class="h2 reveal">자주 묻는 질문</h2>
+          <p class="section-lead reveal">아직 확정되지 않은 내용은 솔직하게 ‘출시 준비 중’이라고 안내해 드려요.</p>
+        </div>
+        <div class="accordion" id="faq-list">
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b1" aria-expanded="false" aria-controls="faq-p1"><span>몇 살부터 기록할 수 있나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p1" role="region" aria-labelledby="faq-b1"><div><p>0~12세 자녀를 둔 부모님을 위해 준비하고 있어요. 0~3세는 부모가 관찰한 모습과 그때의 감정을 기록하고, 연령이 올라가면 나이에 맞는 질문이 제공될 예정입니다.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b2" aria-expanded="false" aria-controls="faq-p2"><span>아이가 직접 작성해야 하나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p2" role="region" aria-labelledby="faq-b2"><div><p>아니요. 어릴수록 부모가 아이에게 묻고 대신 적어요. 8~12세가 되면 아이가 직접 쓰거나 부모와 함께 기록할 수 있습니다. 영유아에게 직접 답변을 요구하지 않아요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b3" aria-expanded="false" aria-controls="faq-p3"><span>부모가 대신 작성해도 되나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p3" role="region" aria-labelledby="faq-b3"><div><p>네, 물론이에요. 아이의 이야기를 부모가 옮겨 적는 것이 이 서비스의 기본 방식입니다. 아이가 자라면 점차 직접 참여할 수 있어요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b4" aria-expanded="false" aria-controls="faq-p4"><span>매주 반드시 기록해야 하나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p4" role="region" aria-labelledby="faq-b4"><div><p>아니요. 모든 질문에 답할 필요는 없어요. 바쁜 시기에는 쉬었다가 언제든 다시 시작할 수 있도록 설계하고 있습니다.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b5" aria-expanded="false" aria-controls="faq-p5"><span>한 달에 기록을 적게 남기면 어떻게 되나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p5" role="region" aria-labelledby="faq-b5"><div><p>괜찮아요. 기록이 적다고 프로젝트가 실패하지 않습니다. 남긴 기록의 양에 따라 결과물의 분량이 자연스럽게 달라질 뿐이에요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b6" aria-expanded="false" aria-controls="faq-p6"><span>1개월과 3개월 결과물은 어떻게 다른가요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p6" role="region" aria-labelledby="faq-b6"><div><p>1개월 결과물은 4~5개의 기록을 담은 작은 디지털 챕터(성장 미니 챕터)이고, 3개월 결과물은 약 12~14주의 기록을 월별 챕터와 사진으로 엮은 이야기집(성장 이야기집, 디지털 PDF 제작 목표)입니다. 둘 다 같은 원본 기록을 재구성하므로 따로 기록할 필요가 없어요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b7" aria-expanded="false" aria-controls="faq-p7"><span>1년 기록집은 실물 책으로 받을 수 있나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p7" role="region" aria-labelledby="faq-b7"><div><p>디지털 PDF를 기본 결과물 후보로, 실물 하드커버 책을 프리미엄 상품 후보로 검토하고 있어요. 제작 방식과 제공 여부는 아직 확정되지 않았습니다. 사전 신청 때 어떤 결과물이 기대되는지 알려 주시면 큰 도움이 됩니다.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b8" aria-expanded="false" aria-controls="faq-p8"><span>사진과 음성도 추가할 수 있나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p8" role="region" aria-labelledby="faq-b8"><div><p>사진은 기록에 선택적으로 곁들일 수 있도록 준비하고 있어요. 음성 녹음은 추후 확장 기능으로 검토 중입니다. 서비스의 중심은 글로 남기는 기록이에요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b9" aria-expanded="false" aria-controls="faq-p9"><span>서비스 이용 가격은 얼마인가요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p9" role="region" aria-labelledby="faq-b9"><div><p>요금제는 출시 준비 중이며 아직 확정되지 않았어요. 무료로 이용할 수 있는 범위나 결과물별 비용도 정해지는 대로 안내해 드리겠습니다.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b10" aria-expanded="false" aria-controls="faq-p10"><span>언제 출시되나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p10" role="region" aria-labelledby="faq-b10"><div><p>출시 일정은 아직 확정되지 않았어요. 출시 알림을 신청해 주시면 소식이 준비되는 대로 알려 드릴게요.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" class="acc-btn" id="faq-b11" aria-expanded="false" aria-controls="faq-p11"><span>기록의 보관과 개인정보는 어떻게 관리되나요?</span><i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" id="faq-p11" role="region" aria-labelledby="faq-b11"><div><p>지금은 서비스 출시 전이라 기록을 받지 않으며, 사전 신청 때 이메일(필수), 자녀 연령대(선택), 가장 기대하는 기능(선택)과 개인정보 수집·출시 알림 동의만 받습니다. 아이의 이름, 정확한 생년월일, 사진, 음성 파일은 수집하지 않아요. 수집 목적과 보유 기간, 운영자 정보는 신청 폼에서 안내합니다. 출시 후의 기록 보관 방식은 서비스 공개 전에 따로 자세히 알려 드릴게요.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 11. FINAL CTA ============ -->
+    <section class="section final" id="cta" aria-labelledby="cta-title">
+      <div class="container final-inner">
+        <p class="eyebrow eyebrow--light reveal">Coming soon</p>
+        <h2 id="cta-title" class="h2 reveal">아이의 오늘을,<br>미래의 이야기로.</h2>
+        <p class="final-lead reveal">출시 소식을 가장 먼저 받아 보세요. 신청은 간단한 정보 입력만으로 끝나요.</p>
+        <div class="reveal">
+          <a class="btn btn-light btn-lg" href="#cta" data-cta="final">출시 알림 신청하기 <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <p class="cta-status" data-cta-status role="status"></p>
+        <ul class="final-info reveal">
+          <li>받는 정보 <b>이메일(필수) · 자녀 연령대(선택) · 가장 기대하는 기능(선택) · 개인정보 수집 및 출시 알림 동의(필수)</b></li>
+          <li>받지 않는 정보 <b>아이의 이름 · 정확한 생년월일 · 사진 · 음성 파일</b></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Hello Archive <em>jr</em></p>
+        <p class="footer-copy">아이의 성장 과정을 질문과 답변으로 기록하는 서비스 <span class="nowrap">(출시 준비 중)</span></p>
+      </div>
+      <div class="footer-meta">
+        <p class="footer-disclaimer">이 페이지는 서비스 출시 전 관심도를 확인하기 위한 소개 페이지입니다. 화면과 결과물은 모두 예시이며, 기능·가격·출시 일정은 확정되지 않았습니다.</p>
+        <p class="footer-links" id="footer-links"></p>
+        <p class="footer-copy">© <span id="year">2026</span> Hello Archive jr</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 사전 신청 폼이 연결되지 않았을 때 보여주는 안내 -->
+  <dialog id="prep-dialog" class="dialog" aria-labelledby="prep-title">
+    <form method="dialog" class="dialog-inner">
+      <h2 id="prep-title">사전 신청을 준비하고 있어요</h2>
+      <p>출시 알림 신청 폼이 아직 열리지 않았어요. 곧 열릴 예정이니 조금만 기다려 주세요.</p>
+      <p class="dialog-dev" id="prep-dev" hidden><b>운영자 안내</b> <code>js/config.js</code> 의 <code>GOOGLE_FORM_URL</code> 에 Google Forms 주소를 입력하면 모든 버튼이 연결됩니다.</p>
+      <button class="btn btn-primary" value="close" autofocus>확인</button>
+    </form>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
