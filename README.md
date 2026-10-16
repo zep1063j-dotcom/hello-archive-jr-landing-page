@@ -131,7 +131,7 @@ Google Forms 설명란이나 동의 항목 위에 아래를 적어 주세요. (�
 
 ## 6. 커스터마이징
 
-- **색상**: `css/style.css` 맨 위 `:root`의 `--brand`(플럼), `--accent`(골드), `--ivory`, `--cream`, `--charcoal` 등을 바꾸면 전체가 바뀝니다.
+- **색상**: `css/style.css` 맨 위 `:root`의 `--brand`(올리브 카키), `--accent`(샌드 골드), `--ivory`, `--cream`, `--charcoal` 등을 바꾸면 전체가 바뀝니다.
 - **문구/FAQ**: `index.html`에서 직접 수정합니다.
 - **브랜드명**: 브랜드명은 `Hello Archive jr`입니다. 바꾸려면 `index.html`(title/meta/헤더/푸터)과 OG 이미지를 수정하세요.
 - 페이지 속 책·아이·사진 자리는 모두 **가상의 예시**이며(자체 제작 SVG/CSS), 외부 이미지는 사용하지 않았습니다.
