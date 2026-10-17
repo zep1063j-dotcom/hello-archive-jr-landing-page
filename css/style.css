@@ -74,7 +74,7 @@ em { font-style: normal; }
 .eyebrow--light { color: var(--accent-l); }
 .display {
   font-family: var(--serif); font-weight: 700;
-  font-size: clamp(2.1rem, 8.4vw, 4.4rem); line-height: 1.22; letter-spacing: -.03em;
+  font-size: clamp(1.9rem, 5.6vw, 3.6rem); line-height: 1.26; letter-spacing: -.03em;
 }
 .h2 {
   font-family: var(--serif); font-weight: 700;
